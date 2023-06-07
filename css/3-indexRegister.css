@@ -1,0 +1,131 @@
+body {
+    background-color: #3C4E6B;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  nav {
+    background-color: #9EA8B8;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-pic {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin-left: 10px;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+  }
+  nav ul li a:hover{
+    background-color: #5C626B;
+  }
+  
+  .login-btn {
+    margin-left: auto;
+  }
+  
+  .btn-login {
+    color: #fff;
+    border-radius: 100px;
+    background-color: #3C4E6B;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn-login:hover {
+    background-color: #5C626B;
+  }
+  
+  .content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .content-2 {
+    display: left;
+    flex-direction: column;
+    align-items: center;
+    background-color: #9EA8B8;
+    border-radius: 50px;
+    padding: 15%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .content-2 input[type="text"],
+  .content-2 button {
+    width: 100%;
+    height: 25px;
+    max-width: 300px;
+    padding: 10px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+  }
+  
+  .content-2 button {
+    background-color: #3C4E6B;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    height: 60px;
+  }
+  
+  .input {
+    height: 25px;
+    font-family: 'Roboto';
+  }
+  
+  .label {
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .dropdown {
+    width: 325px;
+    height: 55px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-family: 'Roboto';
+  }
+  
+  footer {
+    background-color: #5C626B;
+    padding: 10px;
+    text-align: center;
+  }
+  
