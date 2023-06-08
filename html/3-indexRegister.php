@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../Universidad/css/3-indexRegister.css">
+    <link rel="stylesheet" type="text/css" href="../css/3-indexRegister.css">
     <title>Proyecto Universidad</title>
 </head>
 
@@ -31,8 +31,8 @@
                 <label for="name">Tipo</label>
                 <select class="dropdown" name="tipo[]" multipe>
                     <option> </option>
-                    <option value="opcion1">Estudiante</option>
-                    <option value="opcion2">Docente</option>
+                    <option value="Estudiante">Estudiante</option>
+                    <option value="Docente">Docente</option>
                 </select>
                 <label for="nombre">Nombre</label>
                 <input type="text" placeholder="Ingrese su usuario" class="input" name="nombre">
