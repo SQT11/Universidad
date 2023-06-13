@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../css/1_index.css">
+    <link rel="stylesheet" type="text/css" href="../css/4_index2.css">
     <title>Proyecto Universidad</title>
 </head>
 
@@ -16,6 +16,11 @@
         </div>
         <ul>
             <li><a href="http://localhost/Universidad/html/1_index.php">Home</a></li>
+            <li><a href="http://localhost/Universidad/html/5_indexPersona.php">Persona</a></li>
+            <li><a href="http://localhost/Universidad/html/6_indexAsignnatura.php">Asignatura</a></li>
+            <li><a href="http://localhost/Universidad/html/7_indexSalon.php">Salón</a></li>
+            <li><a href="http://localhost/Universidad/html/8_indexCalificacion.php">Calificacion</a></li>
+            <li><a href="http://localhost/Universidad/html/9_indexMatricula.php">Matricula</a></li>
         </ul>
         <div class="login-btn">
             <a class="btn-login" href="http://localhost/Universidad/html/2_indexlogin.php">Iniciar sesión</a>

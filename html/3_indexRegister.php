@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../css/3-indexRegister.css">
+    <link rel="stylesheet" type="text/css" href="../css/3_indexRegister.css">
     <title>Proyecto Universidad</title>
 </head>
 
@@ -15,17 +15,17 @@
     <img src="../Fotos/Logo.jpg" alt="Foto de perfil">
     </div>
     <ul>
-        <li><a href="1_index.html">Home</a></li>
+        <li><a href="http://localhost/Universidad/html/1_index.php">Home</a></li>
     </ul>
     <div class="login-btn">
-        <a class="btn-login" href="#">Iniciar sesión</a>
+        <a class="btn-login" href="http://localhost/Universidad/html/2_indexlogin.php">Iniciar sesión</a>
     </div>
     </nav>
-    <form action="../includes/agregar.php" method="POST">
+    <form action="../includes/registro.php" method="POST">
         <div class="content">
             <div class="content-2">
                 <div class="label">
-                    <label for="name">Datos Personales de la Persona</label>
+                    <label for="name">Registro</label>
                 </div>
 
                 <label for="name">Tipo</label>
@@ -34,15 +34,13 @@
                     <option value="Estudiante">Estudiante</option>
                     <option value="Docente">Docente</option>
                 </select>
-                <label for="nombre">Nombre</label>
-                <input type="text" placeholder="Ingrese su usuario" class="input" name="nombre">
-                <label for="documento">Documento</label>
-                <input type="text" placeholder="Ingrese Documento" class="input" name="documento">
+                <label for="usuario">Usuario</label>
+                <input type="text" placeholder="Ingrese su usuario" class="input" name="usuario">
+                <label for="contrasena">Contraseña</label>
+                <input type="text" placeholder="Ingrese su contraseña" class="input" name="contrasena">
                 <label for="correo">Correo</label>
                 <input type="text" placeholder="Correo Electronico" class="input" name="correo">
-                <label for="telefono">Telefono</label>
-                <input type="text" placeholder="Telefono" class="input" name="telefono">
-                <button type="submit" name="agregar" value="agregar">Registrarse</button>
+                <button type="submit" name="registrar" value="registrar">Registrarse</button>
             </div>
         </div>
     </form>
