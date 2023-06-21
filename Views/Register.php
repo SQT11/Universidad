@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../css/3_indexRegister.css">
+    <link rel="stylesheet" type="text/css" href="../css/Register.css">
     <title>Proyecto Universidad</title>
 </head>
 
@@ -15,13 +15,14 @@
     <img src="../Fotos/Logo.jpg" alt="Foto de perfil">
     </div>
     <ul>
-        <li><a href="http://localhost/Universidad/html/1_index.php">Home</a></li>
+        <li><a href="http://localhost/Universidad/views/index.php">Home</a></li>
     </ul>
     <div class="login-btn">
-        <a class="btn-login" href="http://localhost/Universidad/html/2_indexlogin.php">Iniciar sesión</a>
+        <a class="btn-login" href="http://localhost/Universidad/views/login.php">Iniciar sesión</a>
     </div>
     </nav>
-    <form action="../includes/registro.php" method="POST">
+    
+    <form action="../includes/registro.php" method="POST" >
         <div class="content">
             <div class="content-2">
                 <div class="label">

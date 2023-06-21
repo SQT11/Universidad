@@ -1,16 +1,5 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "Universidad";
-
-// Crear conexión
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-// Verificar la conexión
-if ($conn->connect_error) {
-    die("Conexión fallida: " . $conn->connect_error);
-}
+include("../core/config.php");
 
 if (isset($_POST['agregar'])) {
     $nombres = $_POST['nombre'];
@@ -21,7 +10,7 @@ if (isset($_POST['agregar'])) {
 
     if ($conn->query($sql) === TRUE) {
         echo "Datos agregados";
-        header("Location: ../html/7_indexSalon.php");
+        header("Location: ../views/Salon.php");
         exit; // Asegura que el script se detenga después de redireccionar
     } else {
         echo "Error al insertar datos: " . $conn->error;
@@ -42,7 +31,7 @@ if (isset($_POST['actualizar'])) {
         echo "Datos actualizados";
         // Redireccionar a la página principal u otra ubicación deseada
         
-        header("Location: ../html/7_indexSalon.php");
+        header("Location: ../views/Salon.php");
         exit; // Asegura que el script se detenga después de redireccionar
     } else {
         echo "Error al actualizar datos: " . $conn->error;
@@ -65,7 +54,7 @@ if (isset($_POST['eliminar'])) {
     if ($conn->query($sql) === TRUE) {
         echo "Registro eliminado";
         // Redireccionar a la página principal u otra ubicación deseada
-        header("Location: ../html/7_indexSalon.php");
+        header("Location: ../views/Salon.php");
         exit; // Asegura que el script se detenga después de redireccionar
     } else {
         echo "Error al eliminar registro: " . $conn->error;
