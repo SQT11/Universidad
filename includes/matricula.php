@@ -1,14 +1,5 @@
 <?php
-// Conexión a la base de datos
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "Universidad";
-
-$conn = new mysqli($servername, $username, $password, $dbname);
-if ($conn->connect_error) {
-    die("Conexión fallida: " . $conn->connect_error);
-}
+include("../core/config.php");
 
 // Verificar si se hizo clic en el botón "Agregar"
 if (isset($_POST['agregar'])) {
@@ -36,7 +27,7 @@ if (isset($_POST['agregar'])) {
                     VALUES ('$documento', '$correo', '$telefono', '$tipo')";
             if ($conn->query($sql) === TRUE) {
                 echo "Datos agregados correctamente.";
-                header("Location: ../html/9_indexMatricula.php");
+                header("Location: ../views/Matricula.php");
                 exit; // Asegura que el script se detenga después de redireccionar
             } else {
                 echo "Error al agregar los datos en la tabla 'persona': " . $conn->error;
@@ -98,7 +89,7 @@ if (isset($_POST['eliminar'])) {
             $sql = "DELETE FROM matricula WHERE mat_id = '$idMatricula'";
             if ($conn->query($sql) === TRUE) {
                 echo "Datos eliminados correctamente.";
-                header("Location: ../html/9_indexMatricula.php");
+                header("Location: ../views/Matricula.php");
                 exit; // Asegura que el script se detenga después de redireccionar
             } else {
                 echo "Error al eliminar los datos de la tabla 'matricula': " . $conn->error;

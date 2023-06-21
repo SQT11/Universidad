@@ -1,17 +1,5 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "Universidad";
-
-// Crear conexión
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-// Verificar la conexión
-if ($conn->connect_error) {
-    die("Conexión fallida: " . $conn->connect_error);
-}
-
+include("../core/config.php");
 if (isset($_POST['registrar'])) {
     $usuarios = $_POST['usuario'];
     $contrasenas = $_POST['contrasena'];
@@ -23,7 +11,7 @@ if (isset($_POST['registrar'])) {
 
 
     if ($conn->query($sql) === TRUE) {
-        header("Location: ../html/2-indexlogin.php");
+        header("Location: ../views/login.php");
     exit; // Asegura que el script se detenga después de redireccionar
     } else {
         echo "Error al insertar datos: " . $conn->error;
