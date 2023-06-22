@@ -13,7 +13,7 @@ class UserController {
             
             
             // Redireccionar a la página de inicio u otra página
-            header("Location: ../views/index2.php");
+            header("Location: ../views/index.php");
             exit;
         } else {
             // Credenciales inválidas
