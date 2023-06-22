@@ -22,7 +22,7 @@
     </div>
     </nav>
     
-    <form action="../includes/registro.php" method="POST" >
+    <form action="../Controller/registroController.php" method="POST" >
         <div class="content">
             <div class="content-2">
                 <div class="label">
@@ -30,7 +30,7 @@
                 </div>
 
                 <label for="name">Tipo</label>
-                <select class="dropdown" name="tipo[]" multipe>
+                <select class="dropdown" name="tipo[]" multiple>
                     <option> </option>
                     <option value="Estudiante">Estudiante</option>
                     <option value="Docente">Docente</option>
