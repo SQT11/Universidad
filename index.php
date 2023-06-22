@@ -12,19 +12,19 @@
 <body>
     <nav>
         <div class="profile-pic">
-            <img src="../Universidad/Fotos/Logo.jpg" alt="Foto de perfil">
+            <img src="../Universidad/images/Logo.jpg" alt="Foto de perfil">
         </div>
         <ul>
-            <li><a href="http://localhost/Universidad/views/index.php">Home</a></li>
+            <li><a href="http://localhost/Universidad/views/Home.php">Home</a></li>
         </ul>
         <div class="login-btn">
             <a class="btn-login" href="http://localhost/Universidad/views/login.php">Iniciar sesión</a>
         </div>
     </nav>
     <div class="slider">
-        <img src="../Universidad/Fotos/Foto1.jfif" alt="Imagen 1">
-        <img src="../Universidad/Fotos/Foto2.jfif" alt="Imagen 2">
-        <img src="../Universidad/Fotos/Foto3.jfif" alt="Imagen 3">
+        <img src="../Universidad/images/Foto1.jfif" alt="Imagen 1">
+        <img src="../Universidad/images/Foto2.jfif" alt="Imagen 2">
+        <img src="../Universidad/images/Foto3.jfif" alt="Imagen 3">
     </div>
     <div class="content">
         <h1>Contenido de la página</h1>
