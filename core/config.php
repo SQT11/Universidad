@@ -7,9 +7,9 @@ define('DB_NAME', 'Universidad');
 
 $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
-          // Verificar si hay errores en la conexión
-          if ($conn->connect_error) {
-            die("Error de conexión a la base de datos: " . $conn->connect_error);
-          }
+  // Verificar si hay errores en la conexión
+  if ($conn->connect_error) {
+    die("Error de conexión a la base de datos: " . $conn->connect_error);
+  }
 
 ?>

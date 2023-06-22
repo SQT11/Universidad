@@ -1,6 +1,6 @@
 <?php
 require_once '../core/config.php';
-require_once '../Models/loginModel.php';
+require_once '../Models/LoginModel.php';
 
 class UserController {
     public function login($username, $password) {
