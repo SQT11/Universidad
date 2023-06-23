@@ -15,10 +15,10 @@
     <img src="../Fotos/Logo.jpg" alt="Foto de perfil">
     </div>
     <ul>
-        <li><a href="http://localhost/Universidad/views/Home.php">Home</a></li>
+        <li><a href="/Views/Home.php">Home</a></li>
     </ul>
     <div class="login-btn">
-        <a class="btn-login" href="http://localhost/Universidad/views/login.php">Iniciar sesión</a>
+        <a class="btn-login" href="/Views/login.php">Iniciar sesión</a>
     </div>
     </nav>
     

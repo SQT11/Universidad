@@ -16,14 +16,14 @@
         </div>
         <ul>
             <li><a href="../index.php">Home</a></li>
-            <li><a href="http://localhost/Universidad/views/Persona.php">Persona</a></li>
-            <li><a href="http://localhost/Universidad/views/Asignatura.php">Asignatura</a></li>
-            <li><a href="http://localhost/Universidad/views/Salon.php">Salón</a></li>
-            <li><a href="http://localhost/Universidad/views/Calificacion.php">Calificacion</a></li>
-            <li><a href="http://localhost/Universidad/views/Matricula.php">Matricula</a></li>
+            <li><a href="http://localhost/Universidad/Views/Persona.php">Persona</a></li>
+            <li><a href="http://localhost/Universidad/Views/Asignatura.php">Asignatura</a></li>
+            <li><a href="http://localhost/Universidad/Views/Salon.php">Salón</a></li>
+            <li><a href="http://localhost/Universidad/Views/Calificacion.php">Calificacion</a></li>
+            <li><a href="http://localhost/Universidad/Views/Matricula.php">Matricula</a></li>
         </ul>
         <div class="login-btn">
-            <a class="btn-login" href="http://localhost/Universidad/views/login.php">Iniciar sesión</a>
+            <a class="btn-login" href="http://localhost/Universidad/Views/login.php">Iniciar sesión</a>
         </div>
     </nav>
 
