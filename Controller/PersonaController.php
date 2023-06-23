@@ -1,7 +1,7 @@
 <?php
 
 require_once '../core/config.php';
-require_once '../Models/LoginModel.php';
+require_once '../Models/PesonaModel.php';
 
 class PersonaController {
     private $personaModel;
