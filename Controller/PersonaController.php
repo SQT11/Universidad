@@ -1,4 +1,8 @@
 <?php
+
+require_once '../core/config.php';
+require_once '../Models/PesonaModel.php';
+
 class PersonaController {
     private $personaModel;
     private $conn;
@@ -56,4 +60,18 @@ class PersonaController {
         return $this->personaModel->getAllData();
     }
 }
+
+$Persona = new PersonaController($conn);
+if ($_POST['agregar']) {
+    $Persona->agregarPersona($_POST);
+}
+
+else if ($_POST['actualizar']) {
+    $Persona->actualizarPersona($_POST);
+}
+
+else if ($_POST['eliminar']) {
+    $Persona->eliminarPersona($_POST);
+}
 ?>
+
